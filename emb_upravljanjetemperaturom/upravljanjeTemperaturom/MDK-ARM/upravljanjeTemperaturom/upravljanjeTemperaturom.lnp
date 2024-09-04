@@ -1,0 +1,26 @@
+--cpu Cortex-M3
+"upravljanjetemperaturom\startup_stm32f103x6.o"
+"upravljanjetemperaturom\lcd_txt.o"
+"upravljanjetemperaturom\main.o"
+"upravljanjetemperaturom\stm32f1xx_it.o"
+"upravljanjetemperaturom\stm32f1xx_hal_msp.o"
+"upravljanjetemperaturom\stm32f1xx_hal_gpio_ex.o"
+"upravljanjetemperaturom\stm32f1xx_hal_adc.o"
+"upravljanjetemperaturom\stm32f1xx_hal_adc_ex.o"
+"upravljanjetemperaturom\stm32f1xx_hal.o"
+"upravljanjetemperaturom\stm32f1xx_hal_rcc.o"
+"upravljanjetemperaturom\stm32f1xx_hal_rcc_ex.o"
+"upravljanjetemperaturom\stm32f1xx_hal_gpio.o"
+"upravljanjetemperaturom\stm32f1xx_hal_dma.o"
+"upravljanjetemperaturom\stm32f1xx_hal_cortex.o"
+"upravljanjetemperaturom\stm32f1xx_hal_pwr.o"
+"upravljanjetemperaturom\stm32f1xx_hal_flash.o"
+"upravljanjetemperaturom\stm32f1xx_hal_flash_ex.o"
+"upravljanjetemperaturom\stm32f1xx_hal_exti.o"
+"upravljanjetemperaturom\stm32f1xx_hal_tim.o"
+"upravljanjetemperaturom\stm32f1xx_hal_tim_ex.o"
+"upravljanjetemperaturom\system_stm32f1xx.o"
+--strict --scatter "upravljanjeTemperaturom\upravljanjeTemperaturom.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "upravljanjeTemperaturom.map" -o upravljanjeTemperaturom\upravljanjeTemperaturom.axf
